@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func changeViewColor(_ sender: UISlider) {
+    @IBAction func changeViewColor(_ sender: Any) {
         colorView.backgroundColor = UIColor(
                         red: CGFloat(redSlider.value),
                         green: CGFloat(greenSlider.value),
